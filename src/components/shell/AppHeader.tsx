@@ -4,7 +4,7 @@ import { ThemeToggle } from "./ThemeToggle";
 
 export function AppHeader() {
   return (
-    <header className="sticky top-0 z-40 bg-brand text-brand-fg shadow-sm">
+    <header className="sticky top-0 z-40 border-b-4 border-[#a00000] bg-brand text-brand-fg shadow-[0_0_4px_rgba(0,0,0,0.14),0_4px_8px_rgba(0,0,0,0.28)]">
       <div className="relative mx-auto flex h-12 max-w-5xl items-center justify-between gap-4 px-4">
         <nav className="z-10 flex items-center gap-4 text-sm">
           <Link
